@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800");
 
+
 /*
 	Paradigm Shift by HTML5 UP
 	html5up.net | @ajlkn
@@ -3880,3 +3881,117 @@ input, select, textarea {
 		}
 
 	}
+
+	/*navbar*/
+
+	/*   Start global   */
+
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: arial, tahoma;
+	list-style: none;
+	/*    outline: 1px solid brown;*/
+  }
+  
+  /*   End global   */
+  
+  
+  
+  header {
+	
+	height: 500px;
+  }
+  
+  /*   Start navigation bar   */
+  
+  nav {
+	height: 80px;
+	background-color: #000000;
+	
+  }
+  .logo {
+	padding: 10px;
+	width: auto;
+	float: left;
+  }
+  .logo img {
+	height: 55px;
+  }
+  .list-item {
+	float: right;
+	margin-right: 25px;
+	margin-top: 17px;
+  }
+  .list-item li {
+	float: left;
+	padding: 13px 13px;
+	font-size: 18px;
+	border-radius: 3px;
+	transition: all .7s ease-in-out;
+  }
+  .list-item li a {
+	color: #EEE;
+  }
+  .list-item li:hover {
+	background-color: brown;
+  }
+  
+  /*   End navigation bar   */
+  
+  
+  
+  
+  
+  /*   Start nav bar for small screens   */
+  
+  .icon {
+	display: none;
+  }
+  .toggle {
+	float: right;
+	margin: 20px;
+	color: #EEE;
+	font-size: 30px;
+	border: 1px solid #EEE;
+	padding: 0px 5px;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /*   End nav bar for small screens   */
+  
+  /*   Start media query   */
+  
+  @media (max-width: 1309px) {
+	.icon {
+	  display: block;
+	  width: 100%;
+	  height: 80px;
+	  background-color: #111;
+	 
+	}
+	.list-item {
+	  width: 100%;
+	  margin: 0;
+	  padding: 0;
+	  position: relative;
+	  top: -4px;
+	  background-color: #222;
+	  display: none;
+	}
+	.list-item li {
+	  text-align: center;
+	  display: block;
+	 float: none;
+	}
+  }
+  
+  
+  /*   End media query   */
+  
+  
